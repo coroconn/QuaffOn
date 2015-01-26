@@ -10,6 +10,7 @@
 
 @interface DataViewController ()
 
+
 @end
 
 @implementation DataViewController
@@ -28,5 +29,6 @@
     [super viewWillAppear:animated];
     self.dataLabel.text = [self.dataObject description];
 }
+
 
 @end

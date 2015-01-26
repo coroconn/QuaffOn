@@ -8,7 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DataViewController : UIViewController
+@interface DataViewController : UITableViewController
+@property (strong, nonatomic) IBOutlet UITextField *NotificationText;
+@property (strong, nonatomic) IBOutlet UITextField *SexText;
+@property (strong, nonatomic) IBOutlet UIDatePicker *DatePick;
+@property (strong, nonatomic) IBOutlet UITextField *EmailText;
+@property (strong, nonatomic) IBOutlet UITextField *NameText;
 
 @property (strong, nonatomic) IBOutlet UILabel *dataLabel;
 @property (strong, nonatomic) id dataObject;
